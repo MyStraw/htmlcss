@@ -33,9 +33,8 @@ nav a:active{ /*누르면 빨간색으로 글씨 바뀌게*/
     color:red;
 }
 
-#a2,#a3,#a4 h1 {
-    display: inline-flex;
-    align-items:center;    
+#a2 h1 {
+    display: inline-flex    
 }
 nav li { /*inline-block -블럭형을 인라인 형식으로 바뀐다. 줄은 안바뀌지만 박스다*/
     display: inline-flex; /*같대~ 이거쓴대~*/ 
@@ -46,13 +45,6 @@ nav li { /*inline-block -블럭형을 인라인 형식으로 바뀐다. 줄은 �
     align-items:center ;
 }
 
-main {
-    display: flex; /*메인을 플렉스 박스로 묶으면 가로로 붙는다*/
-    flex-direction:column; /*다시 세로로*/
-    justify-content: center;
-    align-items: left;
-}
-
 article {    
     background-color:rgb(195, 209, 209);
     margin-top : 50px; 
@@ -61,38 +53,24 @@ article {
     padding : 20px
 }
 
-article{
-    display:flex;    
-}
-
-article ul {
-   margin-left:100px;
-}
-
 #a1 {
     height: 50vh; /*화면에 보이는 사이즈의 반, 100 하면 화면을 다 잡겠다*/
     display: flex;
     flex-direction: column;
     justify-content: center; /*오른쪽 정렬*/
-    align-items:center; /* flex-direction: column을 하면 축 다시 생각! 이걸해야 왼쪽으로 간다*/
+    align-items:left; /* flex-direction: column을 하면 축 다시 생각! 이걸해야 왼쪽으로 간다*/
 }
 
 #a1 > div {    
-    border: 5px inset;
+    border: 5px outset;
     border-color :aliceblue;    
     border-radius: 5px;
     width: 250px;
-    height : 150px;    
-}
-
-#a5 {
-   
-    
+    height : 200px;
 }
 
 #a1 img {
-    width : 250px;
-    border-radius: 25%;
+    width : 100%;
 }
 ul {
     margin : 20px;
