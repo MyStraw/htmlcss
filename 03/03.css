@@ -1,0 +1,23 @@
+article {
+    background-color:beige
+}
+
+#a2, #a4 {
+    background-color: blueviolet;
+}
+
+.c3 {
+    background-color: black;
+}
+
+.c3>h1 {
+    color: azure
+}
+
+/* .c3 > ul > li {
+    color:green. c3 아래 li만 색깔 바꾸고싶다! 할때 이렇게 하면 되는데 중간 과정 다 적으면 복잡하니 공백 하면 똑같다. 아래랑 같다.
+} */
+
+.c3 li {
+    color: green
+} 

@@ -6,47 +6,52 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>K-digital 3기 정승길</title>
+    <link rel="stylesheet" type="text/css" href="03.css">
 </head>
+<!--<style></style> 시트 css로 옮김 위에 링크로 적어둠.-->
+
 
 <body>
+    <!-- 시맨틱 태그 -->
     <header>
         <nav><!--네비게이션. 헤더위로 올라가도 상관없다. 의미부여-->
             <ul>
-                <li>개인정보</li> <!--책갈 기능. 같은 페이지 내에-->
-                <li>학력사항</li>
-                <li>자격증</li>
-                <li>사용가능언어</li>
+                <li><a href="#a2">개인정보</a></li> <!--책깔깔 기능. 같은 페이지 내에. 앵커는 무조건 클릭 네비-->
+                <li><a href="#a3">학력사항</a></li><!--#으로 해당 아이디 이동-->
+                <li><a href="#a4">자격증</a></li>
+                <li><a href="#a5">사용가능언어</a></li>
             </ul><!--메뉴는 ul로 많이 묶여있다-->
         </nav><!--밖으로 나와도 된다-->
     </header>
     <main>
-        <article id="a1"> <!--id속성. 아티클 묶음 지정-->
+        <article id="a1" class="c1"> <!--id속성. 아티클 묶음 지정-->
             <img src=../img/oink.png width="220px" /> <!--슬래시 하는 습관-->
         </article>
         <article id="a2">
-            <h1>개인정보</h1>
+            <h1 style="background-color:deepskyblue;">개인정보</h1> <!--인라인 태그라 한줄 다 색깔. // 블럭은 윈도우 창 꽉차게 박스함-->
             <ul>
                 <li>정승길</li>
                 <li>010-9470-xxxx</li>
                 <li>kikongdosa@naver.com</li>
-                <li>부산시 금정구 어딘가 높은곳</li>
+                <li>부산시 <span style="background-color:deepskyblue;">금정구</span> 어딘가 높은곳</li>
+                <!--의미없이 블럭만 하고싶음 div 쓰셈, span은 딱 요만큼 인라인, 지정만큼만 박스 -->
             </ul>
         </article>
-        <article id="a3">
+        <article id="a3" class="c3">
             <h1>학력사항</h1>
             <ul>
                 <li>2003~2005 고등학교</li>
                 <li>2007~2011 대학교</li>
             </ul>
         </article>
-        <article id="a4">
+        <article id="a4" class="c2">
             <h1>자격증</h1>
             <ul>
                 <li>장롱면허</li>
                 <li>동원예비군 4년차 수료증</li>
             </ul>
         </article>
-        <article id="a5">
+        <article id="a5" class="c3">
             <h1>사용가능언어</h1>
             <ul>
                 <li>Korean master</li>
