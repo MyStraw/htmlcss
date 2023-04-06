@@ -1,16 +1,73 @@
-article {
-    background-color:beige
+* {
+    margin : 0px;
+    padding : 0px;    /*간격 다뺌 */
 }
 
+nav {
+    height : 60px; 
+    background-color: rgb(146, 203, 230);       
+}
+
+nav a { 
+text-decoration : none; /*하이퍼링크 밑줄 빼기*/
+color:rgb(5, 45, 68);
+}
+
+nav a:hover, nav li:hover { /*마우스 올리면 자동으로 손모양으로 바뀌는등 숨겨진게 있다*/
+    background-color: aliceblue; /*하버는 마우스 올렸을때~ 동작*/
+    color:blue;
+}
+nav a:active{ /*누르면 빨간색으로 글씨 바뀌게*/
+    color:red;
+}
+
+#a2 h1 {
+    display: inline-flex    
+}
+nav li { /*inline-block -블럭형을 인라인 형식으로 바뀐다. 줄은 안바뀌지만 박스다*/
+    display: inline-flex; /*같대~ 이거쓴대~*/ 
+    width: 110px; /*블럭이지만 인라인이야! 라고 바꾼것. 그냥 인라인은 width height를 할순없다.*/
+    height : 60px;
+    background-color: rgb(236, 230, 240);
+    justify-content:center ;
+    align-items:center ;
+}
+
+article {    
+    background-color:rgb(195, 209, 209);
+    margin-top : 50px; 
+    margin-left : 20px;
+    margin-bottom : 10px;
+    padding : 20px
+}
+
+#a1 {
+    display: inline-flex;
+}
+
+#a1 > div {    
+    border: 5px outset;
+    border-color :aliceblue;    
+    border-radius: 5px;
+    width: 250px;
+}
+
+#a1 img {
+    width : 100%;
+}
+ul {
+    margin : 20px;
+}
 #a2, #a4 {
-    background-color: blueviolet;
+    background-color: black;
+    color:green;
 }
 
 .c3 {
     background-color: black;
 }
 
-.c3>h1 {
+.c3>h1, .c2>h1 {
     color: azure
 }
 
