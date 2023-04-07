@@ -36,7 +36,7 @@ nav a:active{ /*누르면 빨간색으로 글씨 바뀌게*/
 #a2 h1 {
     display: inline-flex    
 }
-nav li { /*inline-block -블럭형을 인라인 형식으로 바뀐다. 줄은 안바뀌지만 박스다*/
+nav li { /*inline-block -블럭형을 인라인 형식으로 바뀐다. 줄은 안바뀌지만 박스다, block는 width를 정해줘야 하지만 flex는 알아서 해줌.*/
     display: inline-flex; /*같대~ 이거쓴대~*/ 
     width: 110px; /*블럭이지만 인라인이야! 라고 바꾼것. 그냥 인라인은 width height를 할순없다.*/
     height : 60px;
@@ -55,7 +55,8 @@ article {
 
 #a1 {
     height: 50vh; /*화면에 보이는 사이즈의 반, 100 하면 화면을 다 잡겠다*/
-    display: flex;
+    display: flex; /* 둘다 가로로 쌓이지만 inline-flex는 박스 사이즈 정해지고 여러개 쌓여서 창크기 넘어가면 아래로 넘어감. flex는 좌우 사이즈를 유동적으로 바꿔 창크기를 바꿔도
+    아래로 내려가거나 하지 않음.*/
     flex-direction: column;
     justify-content: center; /*오른쪽 정렬*/
     align-items:left; /* flex-direction: column을 하면 축 다시 생각! 이걸해야 왼쪽으로 간다*/
