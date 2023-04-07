@@ -1,6 +1,20 @@
 * {
     margin : 0px;
     padding : 0px;    /*간격 다뺌 */
+    font-family: 'Cute Font', cursive;
+    font-family: 'Gugi', cursive;
+}
+
+.iconsp {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width : 100px;
+    height: 100px;
+}
+
+.iconsp > span {
+    font-size:xx-large
 }
 
 header {
