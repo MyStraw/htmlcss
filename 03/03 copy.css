@@ -56,7 +56,7 @@ article {
 #a1 {
     height: 50vh; /*화면에 보이는 사이즈의 반, 100 하면 화면을 다 잡겠다*/
     display: flex; /* 둘다 가로로 쌓이지만 inline-flex는 박스 사이즈 정해지고 여러개 쌓여서 창크기 넘어가면 아래로 넘어감. flex는 좌우 사이즈를 유동적으로 바꿔 창크기를 바꿔도
-    아래로 내려가거나 하지 않음.*/
+    아래로 내려가거나 하지 않음. 오잉*/
     flex-direction: column;
     justify-content: center; /*오른쪽 정렬*/
     align-items:left; /* flex-direction: column을 하면 축 다시 생각! 이걸해야 왼쪽으로 간다*/
