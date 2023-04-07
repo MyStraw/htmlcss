@@ -1,0 +1,22 @@
+{
+	"folders": [
+		{
+			"name": "HTML",
+			"path": "B:/coding project/HTML"
+		},
+		{
+			"name": "CSS",
+			"path": "B:/coding project/CSS"
+		},
+		{
+			"name": "연습",
+			"path": "B:/coding project/연습"
+		},
+		{
+			"path": "../../precamp"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "precamp"
+	}
+}
