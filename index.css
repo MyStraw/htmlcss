@@ -1,0 +1,165 @@
+body {
+    display: flex;
+    background-color: #E0C3AF;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: larger;
+}
+
+#section {
+    display: flex;
+    background-color: #FFDF9E;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 900px;
+}
+
+header {
+    display: flex;
+    background-color: #FFDF9E;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: sticky;
+    top: 0px;
+}
+
+/* #space1,
+#space2,
+#space3,
+#space4 {
+    margin-left: 100px;
+    margin-right: 100px;
+} */
+
+#phone {
+    display: flex;
+    justify-content: space-between;
+
+    width: 700px;
+    background-color: dimgrey;
+    color: white;
+
+}
+
+
+
+
+/*-----------------------------------------------------*/
+
+#menu {
+    display: flex;
+    justify-content: space-between;
+    width: 700px;
+}
+
+
+/*-----------------------------------------------------*/
+
+
+#notice {
+    display: flex;
+    justify-content: space-between;
+
+    background-color: white;
+    width: 700px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#loud {
+    font-size: 180%;
+}
+
+#digital {    
+    font-size: medium;
+}
+
+#digital{
+    
+}
+
+/*-----------------------------------------------------*/
+
+#window {
+    display: flex;
+    background-color: #FFDF9E;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 700px;
+    height: 750px;
+    overflow-y: scroll;
+    padding-top: 100px;
+    
+
+}
+
+#me {
+    background-color: #fef01b;
+    align-self: flex-end;
+    max-width: 70%;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+#you {
+    background-color: #ffffff;
+    align-self: flex-start;
+    max-width: 70%;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.your-name {
+    text-align: left;
+    color: #6495ED;
+    font-weight: bold;
+}
+
+
+/*-----------------------------------------------------*/
+
+#chat {
+    display: flex;
+    justify-content: space-between;
+    background-color: aliceblue;
+    width: 700px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 50px;
+    position: sticky;
+    bottom: 0px;
+
+}
+
+#plus {
+    font-size: 160%;
+}
+
+/* 
+#smile{
+    background-color: gray;
+    border-radius: 40%;
+    justify-self: flex-end;
+    border-color:black;
+    border-style: solid;
+    border-width:thin;
+} */
+
+li a{
+    text-decoration: none;
+    color: rgb(5, 45, 68);
+       
+}
+
+li a:hover{
+    /*마우스 올리면 자동으로 손모양으로 바뀌는등 숨겨진게 있다*/
+    background-color: aliceblue;
+    /*하버는 마우스 올렸을때~ 동작*/
+    color: blue;
+}
