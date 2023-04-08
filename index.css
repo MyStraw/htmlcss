@@ -40,14 +40,14 @@ body {
 
 #header {
     display: flex;
-    background-color: #d9bace;
+    background-color: #49739d;
     /* background-color: #E0C3AF; */
     justify-content: center;
     align-items: center;
     flex-direction: column;
     position: sticky;
     top: 0px;
-    margin-bottom: 1px;
+    
     
     
 }
