@@ -1,29 +1,39 @@
 body {
     display: flex;
-    background-color: #67828d;
+    background-color: #437093f9;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    font-size: larger;
+    font-size: large;
 }
 
-#section {
+#kakao {
+    display: flex;
+    justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+}
+
+/* #section {
     display: flex;
     background-color: #E0C3AF;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     width: 900px;
-}
+} */
 
-header {
+#header {
     display: flex;
-    background-color: #E0C3AF;
+    background-color: #d9bace;
+    /* background-color: #E0C3AF; */
     justify-content: center;
     align-items: center;
     flex-direction: column;
     position: sticky;
     top: 0px;
+    margin-bottom: 1px;
 }
 
 /* #space1,
@@ -38,7 +48,7 @@ header {
     display: flex;
     justify-content: space-between;
 
-    width: 700px;
+    width: 564px;
     background-color: dimgrey;
     color: white;
 
@@ -52,7 +62,7 @@ header {
 #menu {
     display: flex;
     justify-content: space-between;
-    width: 700px;
+    width: 564px;
 }
 
 
@@ -64,13 +74,18 @@ header {
     justify-content: space-between;
 
     background-color: white;
-    width: 700px;
+    width: 564px;
     padding-top: 10px;
     padding-bottom: 10px;
 }
 
-#loud {
-    font-size: 180%;
+#left{
+    display:flex;
+    justify-content: left;
+}
+
+#loud, #expand {
+    font-size: 120%;
 }
 
 #digital {    
@@ -84,15 +99,16 @@ header {
 /*-----------------------------------------------------*/
 
 #window {
+    background-image:url(./img/moon.jpg);
     display: flex;
-    background-color: #E0C3AF;
+    background-color: #E0C3AF;    
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    width: 700px;
+    width: 564px;
     height: 750px;
     overflow-y: scroll;
-    padding-top: 100px;
+    padding-top: 200px;
     
 
 }
@@ -104,6 +120,7 @@ header {
     padding: 10px;
     border-radius: 10px;
     margin-bottom: 10px;
+    margin-right: 5px;
 }
 
 #you {
@@ -113,6 +130,7 @@ header {
     padding: 10px;
     border-radius: 10px;
     margin-bottom: 10px;
+    margin-left: 5px;
 }
 
 .your-name {
@@ -128,7 +146,7 @@ header {
     display: flex;
     justify-content: space-between;
     background-color: aliceblue;
-    width: 700px;
+    width: 564px;
     padding-top: 10px;
     padding-bottom: 10px;
     margin-bottom: 50px;
@@ -141,6 +159,9 @@ header {
     font-size: 160%;
 }
 
+#smile {
+    font-size: 160%;
+}
 /* 
 #smile{
     background-color: gray;
@@ -153,7 +174,7 @@ header {
 
 li a{
     text-decoration: none;
-    color: rgb(5, 45, 68);
+    color: rgb(0, 0, 0);
        
 }
 
