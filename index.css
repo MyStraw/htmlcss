@@ -1,6 +1,6 @@
 body {
     display: flex;
-    background-color: #437093f9;
+    background-color: hsl(193, 52%, 32%);
     justify-content: center;
     align-items: center;
     flex-direction: column;
@@ -18,7 +18,7 @@ body {
         margin-bottom:100px;
         width:579px;       
       border-radius: 5%;
-    box-shadow: 10px 10px 20px #888;
+    box-shadow: 10px 10px 10px #00fff7;
     padding-top:35px;
     padding-bottom:0px;
         
@@ -132,7 +132,8 @@ body {
 }
 
 #me {
-    background-color: #fef01b;
+    background-color: #ffe72e;
+    /* #fef01b; */
     align-self: flex-end;
     max-width: 70%;
     padding: 10px;
