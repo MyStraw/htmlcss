@@ -9,7 +9,7 @@ body {
 
 #section {
     display: flex;
-    background-color: #FFDF9E;
+    background-color: #E0C3AF;
     justify-content: center;
     align-items: center;
     flex-direction: column;
@@ -18,7 +18,7 @@ body {
 
 header {
     display: flex;
-    background-color: #FFDF9E;
+    background-color: #E0C3AF;
     justify-content: center;
     align-items: center;
     flex-direction: column;
