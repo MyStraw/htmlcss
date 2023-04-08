@@ -8,10 +8,20 @@ body {
 }
 
 #kakao {
+    background-color: black;
     display: flex;
     justify-content: center;
         align-items: center;
         flex-direction: column;
+        margin:0px;
+        margin-bottom:100px;
+        width:579px;       
+      border-radius: 5%;
+    box-shadow: 10px 10px 20px #888;
+    padding-top:35px;
+    padding-bottom:0px;
+        
+        
 
 }
 
@@ -34,6 +44,7 @@ body {
     position: sticky;
     top: 0px;
     margin-bottom: 1px;
+    
     
 }
 
@@ -173,6 +184,15 @@ body {
     border-width:thin;
 } */
 
+
+
+#iphone{
+    padding-bottom:40px;
+    
+}
+
+
+/*-----------------------------------------------------*/
 li a{
     text-decoration: none;
     color: rgb(255, 227, 48);
