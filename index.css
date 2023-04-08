@@ -110,13 +110,21 @@ body {
 }
 
 #digital {    
-    font-size: medium;
+    font-size: medium;   
 }
 
-#digital{
-    
+#digital a{
+    text-decoration: none;
+    color:black;
+       
 }
 
+#digital a:hover {
+    /*마우스 올리면 자동으로 손모양으로 바뀌는등 숨겨진게 있다*/
+    background-color: rgb(0, 0, 0);
+    /*하버는 마우스 올렸을때~ 동작*/
+    color: white;
+}
 /*-----------------------------------------------------*/
 
 #window {
@@ -203,12 +211,13 @@ body {
 
 #iphone a{
     text-decoration: none;
+    color:gray;
 }
 
 #iphone a:hover{
     
         /*하버는 마우스 올렸을때~ 동작*/
-        color: rgb(246, 255, 0);
+        color: rgb(255, 240, 128);
 
 }
 /*-----------------------------------------------------*/
