@@ -1,6 +1,6 @@
 body {
     display: flex;
-    background-color: #E0C3AF;
+    background-color: #67828d;
     justify-content: center;
     align-items: center;
     flex-direction: column;
@@ -85,7 +85,7 @@ header {
 
 #window {
     display: flex;
-    background-color: #FFDF9E;
+    background-color: #E0C3AF;
     justify-content: center;
     align-items: center;
     flex-direction: column;
