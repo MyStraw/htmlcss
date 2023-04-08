@@ -18,9 +18,12 @@ body {
         margin-bottom:100px;
         width:579px;       
       border-radius: 5%;
+      height:960px;
     box-shadow: 10px 10px 10px #00fff7;
-    padding-top:35px;
+    padding-top:50px;
     padding-bottom:0px;
+    border-bottom:0px;
+    
         
         
 
@@ -66,7 +69,7 @@ body {
     display: flex;
     justify-content: space-between;
 
-    width: 564px;
+    width: 540px;
     background-color: dimgrey;
     color: white;
 
@@ -80,7 +83,7 @@ body {
 #menu {
     display: flex;
     justify-content: space-between;
-    width: 564px;
+    width: 540px;
 }
 
 
@@ -92,7 +95,7 @@ body {
     justify-content: space-between;
 
     background-color: white;
-    width: 564px;
+    width: 540px;
     padding-top: 10px;
     padding-bottom: 10px;
 }
@@ -123,7 +126,7 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    width: 564px;
+    width: 540px;
     height: 750px;
     overflow-y: scroll;
     padding-top: 200px;
@@ -165,7 +168,7 @@ body {
     display: flex;
     justify-content: space-between;
     background-color: aliceblue;
-    width: 564px;
+    width: 540px;
     padding-top: 10px;
     padding-bottom: 10px;
     margin-bottom: 50px;
@@ -193,12 +196,21 @@ body {
 
 
 
-#iphone{
-    padding-bottom:40px;
+#iphone{    
+    padding-bottom:40px;  
     
 }
 
+#iphone a{
+    text-decoration: none;
+}
 
+#iphone a:hover{
+    
+        /*하버는 마우스 올렸을때~ 동작*/
+        color: rgb(255, 255, 255);
+
+}
 /*-----------------------------------------------------*/
 li a{
     text-decoration: none;
