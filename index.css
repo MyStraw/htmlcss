@@ -5,6 +5,7 @@ body {
     align-items: center;
     flex-direction: column;
     font-size: large;
+    
 }
 
 #kakao {
@@ -47,6 +48,11 @@ body {
     
     
 }
+#notice, #window {
+    color:black;
+}
+
+
 
 /* #space1,
 #space2,
@@ -55,7 +61,7 @@ body {
     margin-left: 100px;
     margin-right: 100px;
 } */
-
+/*-----------------------------------------------------*/
 #phone {
     display: flex;
     justify-content: space-between;
