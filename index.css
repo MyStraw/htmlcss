@@ -55,6 +55,10 @@ body {
     color:black;
 }
 
+#notice img{
+    width:15%;
+    border-radius: 100%;       
+}
 
 
 /* #space1,
