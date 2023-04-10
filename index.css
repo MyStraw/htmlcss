@@ -22,9 +22,7 @@ body {
     box-shadow: 10px 10px 10px #00fff7;
     padding-top:50px;
     padding-bottom:0px;
-    border-bottom:0px;
-    
-        
+    border-bottom:0px;        
         
 
 }
@@ -217,9 +215,8 @@ body {
     color:gray;
 }
 
-#iphone a:hover{
-    
-        /*하버는 마우스 올렸을때~ 동작*/
+#iphone a:hover{   
+        
         color: rgb(255, 240, 128);
 
 }
@@ -230,9 +227,7 @@ li a{
        
 }
 
-li a:hover{
-    /*마우스 올리면 자동으로 손모양으로 바뀌는등 숨겨진게 있다*/
-    background-color: aliceblue;
-    /*하버는 마우스 올렸을때~ 동작*/
+li a:hover{    
+    background-color: aliceblue;    
     color: blue;
 }
