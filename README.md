@@ -1,4 +1,4 @@
-# K-digital 3기 FrontEnd 수업
+# K-digital 3기 FrontEnd Html/Css 수업
 ## https://mystraw.github.io/htmlcss/
 + 23.04.09 : 자기소개 페이지 과제 수정(최종)
 + 23.04.08 : 자기소개 페이지 과제
