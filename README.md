@@ -1,5 +1,6 @@
 # K-digital 3기 FrontEnd Html/Css 수업
 ## https://mystraw.github.io/htmlcss/
++ -이후로는 자바 스크립트에서-  
 + 23.04.09 : 자기소개 페이지 과제 수정(최종)
 + 23.04.08 : 자기소개 페이지 과제
 + 23.04.07 : Pico 프레임워크 연습 (주말과제: index 페이지를 자기소개 페이지로 바꿔오기)
